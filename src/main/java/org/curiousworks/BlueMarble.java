@@ -56,6 +56,12 @@ public class BlueMarble {
 	}
 
 	public void setEnhanced(boolean b) {
-		this.quality = "enhanced";
+		if(b) {
+			this.quality = "enhanced";
+		}else {
+			this.quality = "natural";
+		}
 	}
+	
+
 }
